@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+/* NAV SECTION START */
+
+.navbar {
+    background-color: aqua;
+  }
+
+.header-section{}
+
+.navbar .header-left{
+
+    width: 30%;
+    float: left; 
+}
+
+.navbar .header-left a{
+    display: inline-block;
+}
+
+.navbar .header-left img {
+    width: 150px;
+    height: auto;
+  }
+ 
+.navbar .header-left img{
+    max-width: 100%;
+}
+
+
+.navbar .header-right{
+
+    width: 69%;
+    float: right;
+}
+
+.navbar .header-right ul{}
+
+.navbar .header-right ul li{
+    display: inline-block;
+    float: right;
+    list-style: none;
+}
+
+.navbar .header-right ul li a {
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+  color: rgb(233, 22, 22);
+  border-right: 1px solid black;
+  line-height: 27px;
+}
+
+/* NAV SECTION END */
+
+
+/* BANNER SECTION START */
+
+.banner {
+    background-image: url(./picture/bannerimg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 200px;
+  }
+
+  .banner .banner-section {
+    text-align: center;
+  }
+
+.banner .banner-section h1 {
+    background-color: #636e72;
+    color: #fff;
+    font-size: 32px;
+    display: inline-block;
+    padding: 12px;
+  }
+
+  .banner .banner-section p {
+    
+    font-size: 25px;
+    background-color: #00b894;
+    width: 303px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 15px;
+  }
+/* BANNER SECTION END */
+
+
+/* ABOUT SECTION START */
+
+.about{}
+
+.about .about-section{text-align: center;padding-top: 30px;padding-bottom: 50px;width: 70%;margin: auto;}
+
+.about .about-section h1{font-size: 30px;margin-bottom: 15px;}
+
+.about .about-section p{font-size: 20px;}
+/* ABOUT SECTION END */
+
+
+ 
+/* SERVICE SECTION START */
+
+.service{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.service .service-section{}
+
+.service .service-section .service-items {
+    float: right;
+    width: 32%;
+    text-align: center;
+    border: 1px solid tomato;
+    margin-right: 14px;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  .service .service-section .service-items h2{
+
+    font-size: 30px;
+    color: #3B3B98;
+  }
+
+  .service .service-section .service-items p{
+
+    color: #FC427B;
+    font-size: 20px; 
+  }
+
+  .service .service-section .service-items span{
+      
+    font-size: 35px;
+    color: #2ecaca;
+  }
+/* SERVICE SECTION END */
+
+
+/* BLOG SECTION START */
+
+.blog{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.blog .blog-items{
+
+}
+
+.blog .blog-items .blog-left{
+    width: 65%;
+    float: left;
+    margin-bottom: 30px; 
+}
+
+.blog .blog-items .blog-right{
+    width: 25%;
+    float: right;
+}
+
+img{
+    float: left;
+   width: 200px;
+   height: auto;
+}
+.blog .blog-items .blog-left img{
+   margin-right: 10px;
+}
+
+.blog .blog-items .blog-left p{}
+
+
+
+
+
+.blog .blog-items .blog-right h2{}
+
+.blog .blog-items .blog-right ul{}
+
+.blog .blog-items .blog-right ul li{list-style: none;border: 1px solid gray;padding: 20px;}
+
+.blog .blog-items .blog-right a{}
+/* BLOG SECTION END */
+
+ 
+/* FOOTER SECTION START */
+
+footer{
+
+    padding: 8px;
+    text-align: center;
+    background-color: #2C3A47; 
+}
+
+footer .footer-icon{
+
+}
+
+footer .footer-icon span{ 
+ 
+    font-size: 25px;
+    /*! margin-left: 5px; */
+    /*! padding: 10px; */
+    color: #0984e3;
+    /*! word-spacing: 47px; */
+}
+
+.fa-brands.fa-youtube {
+  padding: 10px;
+}
+
+.fa-brands.fa-instagram {
+  padding: 8px;
+}
+
+.fa-brands.fa-twitter {
+  padding: 8px;
+}
+
+.fa-brands.fa-facebook {
+  padding: 8px;
+}
+
+/* FOOTER SECTION END */
+
+
